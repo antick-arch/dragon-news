@@ -2,6 +2,7 @@ import React from "react";
 import headerImg from "@/assets/logo.png";
 import Image from "next/image";
 import { format } from "date-fns";
+import BreakingNews from "./BreakingNews";
 const Header = () => {
   return (
     <div className="my-8">
@@ -16,6 +17,7 @@ const Header = () => {
         <p>Journalism Without Fear or Favour</p>
         <p>{format(new Date(), "EEEE, MMMM d, y")}</p>
       </div>
+      <BreakingNews />
     </div>
   );
 };
