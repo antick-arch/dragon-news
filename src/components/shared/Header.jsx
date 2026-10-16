@@ -12,6 +12,7 @@ const Header = () => {
         width={300}
         height={200}
         alt="header logo"
+        loading="eager"
       ></Image>
       <div className="text-center text-gray-500 space-y-2">
         <p>Journalism Without Fear or Favour</p>
