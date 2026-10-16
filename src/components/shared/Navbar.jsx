@@ -13,7 +13,7 @@ const Navbar = () => {
             </ul>
             <div className='flex justify-between gap-3'>
                 <Image src={userImg} width={41} height={41} alt='user logo'></Image>
-                <button className='btn bg-[#403F3F] text-white text-[1.3rem]'>Login</button>
+                <button className='btn bg-[#403F3F] text-white text-[1.3rem]'><Link href={'/login'}>Login</Link></button>
             </div>
         </div>
     );
