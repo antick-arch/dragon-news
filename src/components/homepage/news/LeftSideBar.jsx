@@ -13,7 +13,7 @@ const LeftSideBar = ({data}) => {
             key={category.id}
             className="bg-slate-100 p-2 rounded-md font-bold text-center text-xl"
           >
-            <Link className="">{category.name}</Link>
+            <Link href={`categories/${category.id}`} className="">{category.name}</Link>
           </li>
         ))}
       </ul>
